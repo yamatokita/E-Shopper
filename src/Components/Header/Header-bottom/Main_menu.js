@@ -23,7 +23,7 @@ function Main_menu() {
             <li><a href="blog-single.html">Blog Single</a></li>
           </ul>
         </li>
-        <li><a href="404.html">404</a></li>
+        <li><Link to="/404">404</Link> </li>
         <li><a href="contact-us.html">Contact</a></li>
       </ul>
     </div>

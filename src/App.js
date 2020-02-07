@@ -12,6 +12,8 @@ import Cart from './Pages/Cart';
 import Login from './Pages/Login';
 import Checkout from './Pages/Checkout';
 
+import Page_404 from './Pages/Page_404';
+
 function App() {
   return (
     <Router>
@@ -33,6 +35,10 @@ function App() {
         <Route path="/Checkout">
           <Checkout />
         </Route>
+        <Route path="/404">
+          <Page_404 />
+        </Route>
+
       </Switch>
 
     </Router>
