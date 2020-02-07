@@ -1,13 +1,13 @@
 import React from 'react';
-import Category_products from '../Container/Category_products';
-import Brands_products from '../Container/Brands_products';
-import Price_range from '../Container/Price_range';
-import Shipping from '../Container/Shipping';
-import Features_items from '../Container/Features_items';
-import Category_tab from '../Container/Category_tab';
-import Recommended_items from '../Container/Recommended_items';
+import Category_products from '../Container/Home/Category_products';
+import Brands_products from '../Container/Home/Brands_products';
+import Price_range from '../Container/Home/Price_range';
+import Shipping from '../Container/Home/Shipping';
+import Features_items from '../Container/Home/Features_items';
+import Category_tab from '../Container/Home/Category_tab';
+import Recommended_items from '../Container/Home/Recommended_items';
 
-function Container() {
+function Container_home() {
     return (
         <section>
             <div className="container">
@@ -32,4 +32,4 @@ function Container() {
     );
 }
 
-export default Container;
+export default Container_home;

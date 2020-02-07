@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 function Shop_menu() {
   return (
@@ -8,8 +9,8 @@ function Shop_menu() {
           <li><a href><i className="fa fa-user" /> Account</a></li>
           <li><a href><i className="fa fa-star" /> Wishlist</a></li>
           <li><a href="checkout.html"><i className="fa fa-crosshairs" /> Checkout</a></li>
-          <li><a href="cart.html"><i className="fa fa-shopping-cart" /> Cart</a></li>
-          <li><a href="login.html"><i className="fa fa-lock" /> Login</a></li>
+          <li><Link to="/Cart" > Cart</Link></li>
+          <li><Link to="/Login" > Login</Link></li>
         </ul>
       </div>
     </div>
