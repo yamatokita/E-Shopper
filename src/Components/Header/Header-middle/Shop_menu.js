@@ -8,7 +8,7 @@ function Shop_menu() {
         <ul className="nav navbar-nav">
           <li><a href><i className="fa fa-user" /> Account</a></li>
           <li><a href><i className="fa fa-star" /> Wishlist</a></li>
-          <li><a href="checkout.html"><i className="fa fa-crosshairs" /> Checkout</a></li>
+          <li><Link to="/Checkout" > <i className="fa fa-crosshairs" /> Checkout</Link></li>
           <li><Link to="/Cart" > Cart</Link></li>
           <li><Link to="/Login" > Login</Link></li>
         </ul>

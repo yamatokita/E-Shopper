@@ -1,7 +1,5 @@
 import React from 'react';
-import {
-  Link
-} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Main_menu() {
   return (
@@ -10,11 +8,11 @@ function Main_menu() {
         <li><Link to="/Home">Home</Link> </li>
         <li className="dropdown"><a href="#">Shop<i className="fa fa-angle-down" /></a>
           <ul role="menu" className="sub-menu">
-            <li><a href="shop.html">Products</a></li>
-            <li><a href="product-details.html">Product Details</a></li>
-            <li><a href="checkout.html">Checkout</a></li>
-            <li><a href="cart.html">Cart</a></li>
-            <li><a href="login.html">Login</a></li>
+            <li><Link to="/Shop">Products</Link> </li>
+            <li><Link to="/Product_details">Product Details</Link> </li>
+            <li><Link to="/Checkout">Checkout</Link> </li>
+            <li><Link to="/Cart">Cart</Link> </li>
+            <li><Link to="/Login">Login</Link> </li>
           </ul>
         </li>
         <li className="dropdown"><a href="#">Blog<i className="fa fa-angle-down" /></a>
@@ -24,7 +22,7 @@ function Main_menu() {
           </ul>
         </li>
         <li><Link to="/404">404</Link> </li>
-        <li><a href="contact-us.html">Contact</a></li>
+        <li><Link to="/Contact">Contact</Link> </li>
       </ul>
     </div>
   );

@@ -8,11 +8,18 @@ import {
 
 import './App.css';
 import Home from './Pages/Home';
+
+import Shop from './Pages/Shop';
+import Product_details from './Pages/Product_details';
+
 import Cart from './Pages/Cart';
-import Login from './Pages/Login';
-import Checkout from './Pages/Checkout';
+
 
 import Page_404 from './Pages/Page_404';
+import Contact from './Pages/Contact';
+
+import Login from './Pages/Login';
+import Checkout from './Pages/Checkout';
 
 function App() {
   return (
@@ -26,8 +33,21 @@ function App() {
         <Route exact path="/Home">
           <Home />
         </Route>
+        <Route exact path="/Shop">
+          <Shop />
+        </Route>
+        <Route exact path="/Product_details">
+          <Product_details />
+        </Route>
+
         <Route path="/Cart">
           <Cart />
+        </Route>
+        <Route path="/404">
+          <Page_404 />
+        </Route>
+        <Route path="/Contact">
+          <Contact />
         </Route>
         <Route path="/Login">
           <Login />
@@ -35,9 +55,7 @@ function App() {
         <Route path="/Checkout">
           <Checkout />
         </Route>
-        <Route path="/404">
-          <Page_404 />
-        </Route>
+        
 
       </Switch>
 
