@@ -17,8 +17,8 @@ function Main_menu() {
         </li>
         <li className="dropdown"><a href="#">Blog<i className="fa fa-angle-down" /></a>
           <ul role="menu" className="sub-menu">
-            <li><a href="blog.html">Blog List</a></li>
-            <li><a href="blog-single.html">Blog Single</a></li>
+            <li><Link to="/Blog">Blog List</Link> </li>
+            <li><Link to="/Blog_single">Blog Single</Link> </li>
           </ul>
         </li>
         <li><Link to="/404">404</Link> </li>

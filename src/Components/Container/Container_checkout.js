@@ -10,17 +10,6 @@ import Payment_options from '../Container/Checkout/Payment_options';
 
 function Container_checkout() {
     return (
-        // <section id="cart_items">
-        //     <div className="container">
-        //         <Breadcrumbs />
-        //         <Checkout_options />
-        //         <div classname="register-req">
-        //             <p>Please use Register And Checkout to easily get access to your order history, or use Checkout as Guest</p>
-        //         </div>
-        //         <Register_req />
-        //         <Review_payment />
-        //     </div>
-        // </section>
         <section id="cart_items">
             <div className="container">
                 <Breadcrumbs />

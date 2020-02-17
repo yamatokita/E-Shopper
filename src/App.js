@@ -11,6 +11,8 @@ import Home from './Pages/Home';
 
 import Shop from './Pages/Shop';
 import Product_details from './Pages/Product_details';
+import Blog from './Pages/Blog';
+import Blog_single from './Pages/Blog_single';
 
 import Cart from './Pages/Cart';
 
@@ -38,6 +40,12 @@ function App() {
         </Route>
         <Route exact path="/Product_details">
           <Product_details />
+        </Route>
+        <Route exact path="/Blog">
+          <Blog />
+        </Route>
+        <Route exact path="/Blog_single">
+          <Blog_single />
         </Route>
 
         <Route path="/Cart">
