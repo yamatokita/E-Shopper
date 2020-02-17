@@ -2,7 +2,7 @@ import React from 'react';
 
 function Brands_products() {
     return (
-        <div className="brands_products">{/*brands_products*/}
+        <div className="brands_products">
             <h2>Brands</h2>
             <div className="brands-name">
                 <ul className="nav nav-pills nav-stacked">

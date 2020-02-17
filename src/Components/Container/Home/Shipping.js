@@ -2,7 +2,7 @@ import React from 'react';
 
 function Shipping() {
     return (
-        <div className="shipping text-center">{/*shipping*/}
+        <div className="shipping text-center">
             <img src="images/home/shipping.jpg" alt="" />
         </div>
     );

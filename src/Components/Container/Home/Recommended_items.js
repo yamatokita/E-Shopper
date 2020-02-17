@@ -2,7 +2,7 @@ import React from 'react';
 
 function Recommended_items() {
     return (
-        <div className="recommended_items">{/*recommended_items*/}
+        <div className="recommended_items">
             <h2 className="title text-center">recommended items</h2>
             <div id="recommended-item-carousel" className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner">

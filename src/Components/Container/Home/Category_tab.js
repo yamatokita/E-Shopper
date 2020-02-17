@@ -2,7 +2,7 @@ import React from 'react';
 
 function Category_tab() {
     return (
-        <div className="category-tab">{/*category-tab*/}
+        <div className="category-tab">
             <div className="col-sm-12">
                 <ul className="nav nav-tabs">
                     <li className="active"><a href="#tshirt" data-toggle="tab">T-Shirt</a></li>

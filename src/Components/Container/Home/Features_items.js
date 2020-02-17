@@ -2,7 +2,7 @@ import React from 'react';
 
 function Features_items() {
     return (
-        <div className="features_items">{/*features_items*/}
+        <div className="features_items">
             <h2 className="title text-center">Features Items</h2>
             <div className="col-sm-4">
                 <div className="product-image-wrapper">

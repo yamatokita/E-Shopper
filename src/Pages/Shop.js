@@ -12,8 +12,6 @@ function Shop() {
         <Container_shop />
         <Footer />
       </div>
-
-
   );
 }
 
